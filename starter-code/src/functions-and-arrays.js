@@ -33,27 +33,26 @@ function findLongestWord(array){
 
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
+// function sumNumbers(array){
+//   let sum = "";
+//     if(array.length === 0){
+//       return sum;
+//     }
+//     }
+
+
 function sumNumbers(array){
-  let sum = "";
-    if(array.length === 0){
-      return sum;
-    }
-    }
-
-
-/*function sumNumbers(array){
   let sum = "";
   if (array.length === 0){
     return 0;
   }
   for(let i=0;i<array.length;i++){
     if (sum.length < array[i].length){
-      sum = array[i];
-      return sum;;
-    }else if()
+      sum += array[i];
+      return sum;
   } 
   return sum;
-}*/
+}
 
 // Iteration #4: Calculate the average
 // Level 1: Array of numbers
